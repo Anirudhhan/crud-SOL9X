@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../lib/api";
 import { useAuth } from "../context/AuthContext";
+import { Plus, Pencil, Trash } from "lucide-react";
 
 export default function AdminDashboard() {
   const { logout } = useAuth();
